@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jacopo Vendramin - Software Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="terminal-container">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="btn close"></span>
+                <span class="btn minimize"></span>
+                <span class="btn maximize"></span>
+            </div>
+            <div class="terminal-title">jacopo@portfolio:~</div>
+            <div class="theme-switcher">
+                <button id="theme-btn" title="Change theme">◐</button>
+            </div>
+        </div>
+        <div class="terminal-body" id="terminal">
+            <div class="output-line">
+                <div class="ascii-art">
+   ___                               _   _                _                     _       
+  |_  |                             | | | |              | |                   (_)      
+    | | __ _  ___ ___  _ __   ___   | | | | ___ _ __   __| |_ __ __ _ _ __ ___  _ _ __  
+    | |/ _` |/ __/ _ \| '_ \ / _ \  | | | |/ _ \ '_ \ / _` | '__/ _` | '_ ` _ \| | '_ \ 
+/\__/ / (_| | (_| (_) | |_) | (_) | \ \_/ /  __/ | | | (_| | | | (_| | | | | | | | | | |
+\____/ \__,_|\___\___/| .__/ \___/   \___/ \___|_| |_|\__,_|_|  \__,_|_| |_| |_|_|_| |_|
+                      | |                                                               
+                      |_|                                                                                                                       
+                </div>
+            </div>
+            <div id="initial-readme"></div>
+            <div class="input-line">
+                <span class="prompt">visitor@jacopo:~$</span>
+                <input type="text" id="terminal-input" class="terminal-input" autocomplete="off" autofocus>
+                <span class="cursor">█</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
